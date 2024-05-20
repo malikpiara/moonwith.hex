@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.5.12",
+    "@tailwindcss/typography": "^0.5.13",
     "@types/node": "20.12.12",
     "@types/react": "18.2.74",
     "@types/react-dom": "18.2.25",
