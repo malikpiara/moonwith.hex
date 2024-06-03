@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^0.1.3
     version: 0.1.3(@content-collections/core@0.4.1)(react-dom@18.2.0)(react@18.2.0)
   '@content-collections/next':
-    specifier: ^0.1.3
-    version: 0.1.3(@content-collections/core@0.4.1)(next@14.2.3)
+    specifier: ^0.2.0
+    version: 0.2.0(@content-collections/core@0.4.1)(next@14.2.3)
   concurrently:
     specifier: ^8.2.2
     version: 8.2.2
@@ -220,11 +220,11 @@ packages:
       - supports-color
     dev: true
 
-  /@content-collections/next@0.1.3(@content-collections/core@0.4.1)(next@14.2.3):
-    resolution: {integrity: sha512-yOfd2mP1mI3fzJ0oK/oBEv7w14PxqE7pXZZ6q+WFIE8RyCazcXEKfOFlsBtZmg6N0CXY05zC9Zi6TdLJNllITQ==}
+  /@content-collections/next@0.2.0(@content-collections/core@0.4.1)(next@14.2.3):
+    resolution: {integrity: sha512-ZGHs+iO7k/L2SUx5qRg2rU3Les09Clk02/0VY1bFzO8mSIeA0T6Ze3Usap3QLbJ9EsgKvN+Jn08PHJA6o/31bQ==}
     peerDependencies:
       '@content-collections/core': 0.x
-      next: ^12 || ^13 || ^14
+      next: ^12 || ^13 || ^14 || ^15
     dependencies:
       '@content-collections/core': 0.4.1
       '@content-collections/integrations': 0.1.1(@content-collections/core@0.4.1)
